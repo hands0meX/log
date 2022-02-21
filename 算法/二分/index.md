@@ -12,3 +12,17 @@ a >> 1 二进制位移一位 相当于除以2； << 1相当于乘以2
 
 - 二分之后l === r，
 - 二分之后没找到相应的值，l + r + 1 >> 1时候的r == l 是target值的左边，反之是右边
+
+<!-- 右分的模版 -->
+```javascript
+let n = nums.length
+let l = 0,r = n - 1
+while(l < r) {
+    let mid = l + r >> 1
+    if(nums[mid] >= target) {
+        r = mid
+    } else {
+        l = mid + 1
+    }
+}
+```
