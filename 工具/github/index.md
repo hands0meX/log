@@ -15,3 +15,6 @@
   - 删除分支：
     - 远程： git push origin --delete [branch name]
     - 本地： git branch -D [branch name]
+  
+ 复制：
+  - 复制分支a文件到b分支上： git checkout [branch a] -- [分支a的目标文件夹相对路径]
