@@ -23,5 +23,5 @@
  分支与标签：
   - 标签
     轻量标签
-      add    git tag vx.x.x
-      delete    git tag -d vx.x.x   git push origin --delete vx.x.x 
+      add     git tag vx.x.x         git push origin [tag name]
+      delete  git tag -d vx.x.x   git push origin --delete vx.x.x 
