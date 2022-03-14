@@ -15,6 +15,13 @@
   - 删除分支：
     - 远程： git push origin --delete [branch name]
     - 本地： git branch -D [branch name]
+      - 删除本地的所有分支 git branch | grep -v [不删除的分支名] | xargs git branch -D
   
  复制：
   - 复制分支a文件到b分支上： git checkout [branch a] -- [分支a的目标文件夹相对路径]
+
+ 分支与标签：
+  - 标签
+    轻量标签
+      add    git tag vx.x.x
+      delete    git tag -d vx.x.x   git push origin --delete vx.x.x 
