@@ -23,5 +23,11 @@
  分支与标签：
   - 标签
     轻量标签
-      add     git tag vx.x.x         git push origin [tag name]
+      add     git tag vx.x.x -m[标注信息]        git push origin [tag name]
       delete  git tag -d vx.x.x   git push origin --delete vx.x.x 
+      git tag -l 查看tag列表
+
+
+##### 子模块
+添加子模块：  git submodule add [项目路径]
+克隆一个含有子模块的项目的操作： git submodule init & git submodule update
