@@ -1,6 +1,10 @@
 在线编辑器
  - 如https://github.com/hands0meX/log 中的 .com 转换成.dev即可启动在线编辑器
 
+  工作中常用操作：
+    当远程分支超越本地分支：git rebase origin/远程分支名
+    去除想要的提交： git rebase -i head~[往回退几个head]
+
 
 
  快捷键：
