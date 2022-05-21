@@ -6,6 +6,7 @@
     去除想要的提交： git rebase -i head~[往回退几个head]
     查看只记得关键词的分支： git log --grep [关键词]
     查看单文件的历史提交： git log -p [相对路径]
+    修改当前commit的提交信息 git commit --amend
 
 #### stash
  git stash pop stash@{[index]} 将某个stash条特征获取 
@@ -24,6 +25,15 @@
 #### 复制：
   - 复制分支a文件到b分支上： git checkout [branch a] -- [分支a的目标文件夹相对路径]
 
+
+### 合并
+#### cherry-pick
+pick多个
+
+
+
+
+
 #### 分支与标签：
   - 标签
     轻量标签
@@ -35,3 +45,7 @@
 ##### 子模块
 添加子模块：  git submodule add [项目路径]
 克隆一个含有子模块的项目的操作： git submodule init & git submodule update
+
+
+#### 查看某作者的提交
+git log --author='authorName'

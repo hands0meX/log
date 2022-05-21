@@ -6,3 +6,5 @@
     for(let i = 0; i < windowWidth; i ++) {}
     for(let i = windowWidth; i < arr.length; i ++) {}
  ```
+
+ 经常会和字符串匹配的双指针互动上： LC-438
