@@ -49,3 +49,6 @@ pick多个
 
 #### 查看某作者的提交
 git log --author='authorName'
+
+#### 查看单文件的提交记录
+git log [filename]
