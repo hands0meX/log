@@ -41,7 +41,7 @@ pick多个
       delete  git tag -d vx.x.x   git push origin --delete vx.x.x 
       git tag -l 查看tag列表
   - 当分支和标签命名相同时候
-     使用 refs/tags/xx 与 ref/heads/xx来区分 删除的是分支还是标签名
+     使用 refs/tags/xx 与 refs/heads/xx来区分 删除的是分支还是标签名
 
 
 ##### 子模块
